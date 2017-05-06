@@ -9,7 +9,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 @SuppressWarnings("ALL")
 public class ApiClient {
 
-    private static final String BASE_URL = "http://viraltube.co.in/moneytree-test/";
+    private static final String BASE_URL = "YOUR_API_LINK";
     private static Retrofit retrofit = null;
 
     public static Retrofit getClient() {
